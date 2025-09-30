@@ -1,0 +1,178 @@
+/*---------------------
+         GENERAL
+-----------------------*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  margin: 0;
+}
+
+/*---------------------
+         HEADER
+-----------------------*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f9e44; 
+  color: #fff;
+  padding: 12px 20px;
+}
+
+.header-centro label {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.header-centro input {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+/*--------------------------------------
+
+Controles de orden alfabetico y precio
+
+---------------------------------------*/
+
+#controles-orden {
+  
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+#controles-orden button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2f9e44;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+/*---------------------
+         PRODUCTOS
+-----------------------*/
+#contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-producto {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  width: 200px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-producto img {
+  width: 120px;
+  height: auto;
+}
+
+.card-producto h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+}
+
+.card-producto p {
+  margin: 5px 0 10px;
+}
+
+.card-producto button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2f9e44;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+/*---------------------
+         CARRITO
+-----------------------*/
+
+#contenedor-carrito {
+  padding: 20px;
+  background-color: #fff;
+  border-top: 2px solid #dee2e6;
+}
+
+
+#contenedor-carrito ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bloque-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+
+
+.boton-eliminar {
+  background-color: #e03131;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+/*---------------------------
+         TOTAL CARRITO
+----------------------------*/
+#total-carrito {
+  text-align: right;
+  padding: 15px;
+  font-weight: bold;
+  background-color: #f1f3f5;
+  border-top: 2px solid #dee2e6;
+}
+
+
+/*------------------------
+         BOTONES ROJOS
+--------------------------*/
+
+
+#contenedor-carrito .boton-eliminar {
+  background-color: #e03131;
+}
+
+#contador-carrito {
+  font-weight: bold;
+  margin-right: 10px;
+  
+}
+
+#contenedor-carrito #vaciar-carrito { 
+    background-color: #e03131; 
+    color:#fff; 
+}
